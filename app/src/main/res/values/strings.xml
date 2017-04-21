@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TrashCan</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity">MainActivity</string>
+    <string name="url">http://thedivinegroups.com/sandeepgadhiya/sandeepappdata.txt</string>
+    <string name="trashActivity">TrashActivity</string>
+</resources>

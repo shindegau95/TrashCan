@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        android:layout_marginBottom="30dp"
+        >
+
+        <Button
+            android:id = "@+id/leveldisp1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp2"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp4"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp8"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp9"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+        <Button
+            android:id = "@+id/leveldisp10"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#FFF59D"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Bin Info"
+                android:textSize="16sp"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Bin ID"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/bin_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xyz"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Bin Level"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/bin_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xyz"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xyz"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"
+                android:autoText="true"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#c0c0c0"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="Distance from Bin"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+            <TextView
+                android:id="@+id/distance"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="xyz"
+                android:layout_marginLeft="16dp"
+                android:textColor="#000000"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
